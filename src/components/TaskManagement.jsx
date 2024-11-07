@@ -170,19 +170,6 @@ const TaskManagement = () => {
           formatCurrency={formatCurrency}
           formatDate={formatDate}
         />
-
-        <div className="d-flex justify-content-center">
-          <Button
-            variant="primary"
-            onClick={() => {
-              setSelectedTask(null);
-              setFormData({ nome: "", custo: "", data_limite: "" });
-              setShowEditModal(true);
-            }}
-          >
-            <FaPlus className="me-2" /> Adicionar Nova Tarefa
-          </Button>
-        </div>
       </div>
 
       <EditTaskModal
