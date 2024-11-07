@@ -1,0 +1,32 @@
+.task-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-list-item {
+  transition: all 0.3s ease;
+}
+
+.task-list-item .card {
+  transition: transform 0.3s ease;
+}
+
+.task-list-item:hover {
+  transform: translateY(-2px);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.task-list-item {
+  animation: slideIn 0.3s ease-out forwards;
+}

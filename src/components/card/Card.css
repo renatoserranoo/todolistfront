@@ -1,0 +1,6 @@
+.move-button-up:hover,
+.move-button-down:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Alterne o fundo se desejar */
+  border-radius: 20px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
