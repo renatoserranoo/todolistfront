@@ -19,7 +19,7 @@ const TaskManagement = () => {
     data_limite: "",
   });
   const api = axios.create({
-    baseURL: "http://localhost:8080/",
+    baseURL: "https://todolistback-production-8395.up.railway.app/",
   });
   const [error, setError] = useState("");
 
