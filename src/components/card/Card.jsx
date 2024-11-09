@@ -14,7 +14,7 @@ const Card = ({
   formatDate,
 }) => {
   return (
-    <div className="task-item p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+    <div className="task-item bg-white mb-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
       <div
         className="card h-100 shadow-sm"
         style={{

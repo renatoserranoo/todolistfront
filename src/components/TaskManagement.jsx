@@ -133,7 +133,7 @@ const TaskManagement = () => {
   };
 
   return (
-    <Container className="custom-container py-4 bg-white rounded-lg">
+    <Container className="custom-container py-4 bg-white rounded-lg p-4">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h1>Lista de Tarefas</h1>
         <div className="d-flex">
